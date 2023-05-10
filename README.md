@@ -20,6 +20,10 @@ docker-compose up -d
 - id: admin
 - passwd: 커맨드라인에서 `make passwd`
 
+## nexus 설정하기
+
+https://help.sonatype.com/repomanager2/node-packaged-modules-and-npm-registries
+
 ## next error
 
 ```log
