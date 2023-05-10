@@ -22,7 +22,11 @@ docker-compose up -d
 
 ## nexus 설정하기
 
-https://help.sonatype.com/repomanager2/node-packaged-modules-and-npm-registries
+npm 배포를 위해서 로그인하기 https://help.sonatype.com/repomanager3/nexus-repository-administration/user-authentication/realms#Realms-npmBearerTokenRealm
+
+```
+npm adduser --auth-type=legacy --registry=http://localhost:8081/repository/npm-internal/
+```
 
 ## next error
 
