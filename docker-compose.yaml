@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+   nexus3:
+      image: klo2k/nexus3
+      restart: unless-stopped
+      container_name: nexus3
+      # privileged: true
+      user: root
+      volumes:
+         - ./nexus-data:/nexus-data
+      ports:
+         - 8081:8081
